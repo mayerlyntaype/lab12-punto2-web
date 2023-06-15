@@ -1,0 +1,10 @@
+<div *ngIf="getUserDetails()" class="user-details">
+    <h2>Detalles del Usuario</h2>
+    <p><strong>Nombre:</strong> {{ getUserDetails().name }}</p>
+    <p><strong>Email:</strong> {{ getUserDetails().email }}</p>
+    <p><strong>Teléfono:</strong> {{ getUserDetails().phone }}</p>
+    <p><strong>Ciudad:</strong> {{ getUserDetails().city }}</p>
+    <p><strong>País:</strong> {{ getUserDetails().country }}</p>
+    <p><strong>Edad:</strong> {{ getUserDetails().age }}</p>
+  </div>
+  

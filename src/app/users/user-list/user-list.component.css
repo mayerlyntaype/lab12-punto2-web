@@ -1,0 +1,33 @@
+.user-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .user-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .user-item span {
+    font-weight: bold;
+  }
+  
+  .details-button {
+    padding: 5px 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .details-button:hover {
+    background-color: #45a049;
+  }
+  
